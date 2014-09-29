@@ -1,9 +1,9 @@
-#include <stdio.h>
 
-void hello()
-{
-    printf("hello\n");
-}
+/*
+ *    Tells the compiler what the hello function looks like w/o
+ *    revealing it's implementation.
+ */
+void hello();
 
 int main()
 {
