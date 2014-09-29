@@ -6,7 +6,7 @@ int apples_get();
 /*
     in c (not c++), w/o an initialisation, c regards this global as just a declaration
 */
-int data;
+static int data;
 
 void oranges_set(int value)
 {
