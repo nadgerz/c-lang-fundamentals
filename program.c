@@ -19,6 +19,7 @@ void oranges_set(int value)
 
 int main()
 {
+    /*
     int apples;
     int oranges;
 
@@ -30,8 +31,9 @@ int main()
 
     apples_set(4);
     apples = data;
+    */
 
-    printf("apples=%d oranges=%d\n", apples, oranges);
+    printf("apples=%d\n", apples_get());
 
     return 0;
 }
