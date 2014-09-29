@@ -4,7 +4,6 @@ void apples_set(int value);
 int apples_get();
 
 int data;
-int data;
 
 void oranges_set(int value)
 {
