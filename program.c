@@ -2,8 +2,10 @@
 
 int main()
 {
-    int apples;
-    int oranges;
+    int apples = 5;
+    int oranges = apples;
+
+    apples = 4;
 
     printf("apples=%d oranges=%d\n", apples, oranges);
 
